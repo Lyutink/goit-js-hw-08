@@ -20,12 +20,10 @@ feedbeckFormRef.addEventListener('submit', event => {
 
 function saveLocalStorage(event) {
     selectedFeedbeckForm[event.target.name] = event.target.value;
-    console.log(selectedFeedbeckForm);
     localStorage.setItem('feedback-form-state', JSON.stringify(selectedFeedbeckForm));
 
 }
 function initFeedbeckForm() {
-    console.log(selectedFeedbeckForm);
     let persistedForm = localStorage.getItem(LOCALSTORAGE_KEY);
     if (persistedForm) {
         persistedForm = JSON.parse(persistedForm);
