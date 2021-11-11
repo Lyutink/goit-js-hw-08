@@ -8,3 +8,5 @@
 
 3 - форма обратной связи, сохраняю значения полей в локальное хранилище когда пользователь что-то
 печатает + бибилотека lodash.throttle
+
+https://github.com/goitacademy/javascript-homework/blob/main/v2/08/README.md
